@@ -34,7 +34,7 @@ alias watch="npm run dev"
 alias docker-composer="docker-compose"
 
 # SQL Server
-alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest"
+#alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest"
 
 # Git
 alias gs="git status"
@@ -45,7 +45,7 @@ alias amend="git add . && git commit --amend --no-edit"
 alias commit="git add . && git commit -m"
 alias diff="git diff"
 alias force="git push --force-with-lease"
-alias nuke="git clean -df && git reset --hard"
+alias nah="git clean -df && git reset --hard"
 alias pop="git stash pop"
 alias prune="git fetch --prune"
 alias pull="git pull"
