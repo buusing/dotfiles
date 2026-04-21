@@ -12,7 +12,6 @@ brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'grep'
-brew 'httpie'
 brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
@@ -35,39 +34,21 @@ brew 'yarn'
 # Apps
 cask '1password'
 brew '1password-cli'
-cask 'caffeine'
 cask 'claude'
+cask 'claude-code'
+cask 'comfyui'
+cask 'codex-app'
 cask 'cursor'
-cask 'cyberduck'
-cask 'discord'
-cask 'ghostty'
 cask 'docker'
-cask 'figma'
-cask 'firefox'
-cask 'github'
+cask 'ghostty'
 cask 'google-chrome'
-cask 'helo'
 cask 'herd'
-cask 'httpie'
-cask 'imageoptim'
-cask 'loom'
-cask 'pastebot'
-cask 'reflex'
-cask 'screen-studio'
+cask 'opencode-desktop'
+cask 'phpstorm'
 cask 'slack'
 cask 'tableplus'
-cask 'telegram-desktop'
 cask 'the-unarchiver'
-cask 'tinkerwell'
-cask 'transmit'
-cask 'tunnelbear'
-cask 'tuple'
 cask 'visual-studio-code'
-cask 'zoom'
-
-# Quicklook
-cask 'qlmarkdown'
-cask 'quicklook-json'
 
 # Fonts
 cask 'font-lato'
@@ -78,8 +59,3 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
-# Mac App Store
-mas 'Keynote', id: 409183694
-mas 'MyWoosh', id: 1498889644
-mas 'Numbers', id: 409203825
-mas 'Speedtest', id: 1153157709
