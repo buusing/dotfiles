@@ -49,5 +49,9 @@ $HOME/.dotfiles/clone.sh || echo "Warning: clone.sh encountered errors, continui
 # Symlink the Mackup config file to the home directory
 ln -sf $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Copy TablePlus snippets
+mkdir -p "$HOME/Library/Application Support/com.tinyapp.TablePlus/Cache/Favorite"
+cp $HOME/.dotfiles/tableplus/snippets/*.sql "$HOME/Library/Application Support/com.tinyapp.TablePlus/Cache/Favorite/" || echo "Warning: could not copy TablePlus snippets, continuing..."
+
 # Set macOS preferences - we will run this last because this will reload the shell
 source $HOME/.dotfiles/.macos || echo "Warning: some macOS preferences failed to apply, continuing..."
